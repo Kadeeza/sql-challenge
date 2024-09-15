@@ -5,7 +5,7 @@ dept_name
 
 dept_emp
 -------------------
-emp_no int PK
+emp_no int 
 dept_no FK >- departments.dept_no
 
 dept_manager
@@ -15,7 +15,7 @@ emp_no FK >- dept_emp.emp_no
 
 employees
 -----------------
-emp_no int FK >- dept_emp.emp_no
+emp_no int 
 emp_title_id FK >- titles.title_id
 birth_date
 first_name
